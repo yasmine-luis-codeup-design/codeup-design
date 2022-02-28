@@ -118,3 +118,50 @@ body {background-color: #f0f0f0;}
     text-align: center;
     display: block;
 }
+
+.circle1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px 12px;
+    background-color: #E6563B;
+    border: 3px solid white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+
+}
+.circle2 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px 12px;
+    background-color: #EB9D3A;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.circle3 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px 10px;
+    background-color: #7cb06c;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.circle4 {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 30px 12px;
+    background-color: #00ABA9;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
