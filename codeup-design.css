@@ -1,3 +1,7 @@
+
+
+
+
 /* Styles associated with NAV */
 nav {
     z-index: 2;
@@ -11,21 +15,16 @@ nav > ul {
 
 }
 
-
 .order-6 {
     order: 6;
 }
 
 
-@media (min-width: 1200px) {
-    .order-6 {
-        width: auto;
-    }
-}
 
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    .ml-auto-md {
+
+@media (min-width: 576px) {
+
+    .ml-auto-sm {
         margin-left: auto;
     }
 
@@ -34,20 +33,6 @@ nav > ul {
     }
 
 }
-
-
-@media (min-width: 992px) {
-    .ml-auto-lg {
-        margin-left: auto;
-
-    }
-
-    .order-6 {
-        width: auto;
-    }
-
-}
-
 
 @media (min-width: 770px ) {
     .order-6 {
@@ -70,16 +55,38 @@ nav > ul {
 }
 
 
-@media (min-width: 576px) {
 
-    .ml-auto-sm {
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .ml-auto-md {
         margin-left: auto;
     }
 
     .order-6 {
-        width: 100%;
+        width: auto;
     }
 
+}
+
+
+@media (min-width: 992px) {
+    .ml-auto-lg {
+        margin-left: auto;
+
+    }
+
+    .order-6 {
+        width: auto;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+    .order-6 {
+        width: auto;
+    }
 }
 
 
