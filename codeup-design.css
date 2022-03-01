@@ -196,6 +196,7 @@ h1, h2{
     flex-wrap: wrap;
     justify-content: flex-end;
     align-content: flex-start;
+    list-style: none;
 }
 
 .circles1{
