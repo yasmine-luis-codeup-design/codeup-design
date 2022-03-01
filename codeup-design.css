@@ -125,6 +125,12 @@ body {background-color: #f0f0f0;}
     display: block;
 }
 
+h1, h2{
+    display:flex;
+    justify-content: center;
+}
+
+
 .circle{
     display:flex;
     flex-wrap: wrap;
@@ -172,6 +178,71 @@ body {background-color: #f0f0f0;}
     width: 100px;
     height: 100px;
     padding: 10px 30px 12px;
+    background-color: #00ABA9;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 576px) {
+    .phoneView {
+        visibility: hidden;
+    }
+}
+
+
+.circles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+.circles1{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    padding: 10px 16px 10px;
+    background-color: #E6563B;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.circles2{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    padding: 10px 16px 10px;
+    background-color: #EB9D3A;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.circles3{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    padding: 10px 16px 10px;
+    background-color:  #7cb06c;
+    border: 3px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.circles4{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    padding: 10px 16px 10px;
     background-color: #00ABA9;
     border: 3px solid white;
     text-align: center;
