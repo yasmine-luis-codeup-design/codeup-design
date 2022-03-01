@@ -188,6 +188,9 @@ h1, h2{
     .phoneView {
         visibility: hidden;
     }
+    hr{
+        visibility: hidden;
+    }
 }
 
 
